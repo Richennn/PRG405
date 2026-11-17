@@ -1,0 +1,99 @@
+respondent_id,gender,age_group,device,purpose,total_hours,academic_hours,social_hours,entertainment_hours,spend_more_time_than_intended,online_morning_to_night,internet_essential_for_routine,restless_without_internet,use_for_assignments,internet_helps_find_resources,use_collaboration_platforms,more_research_than_nonacademic,social_media_first,social_media_largest_share,communicate_with_friends,urge_to_check_notifications,stream_video_music,gaming_major_portion,browsing_is_relaxation,background_streaming,easy_to_balance_study,usage_helps_performance,distracted_from_study,want_to_reduce_screen_time
+1,Female,21 - 23,Smartphone,Academic Learning / Research,5.5,4.5,5.5,5.5,5,5,4,4,4,5,4,3,4,3,3,3,4,3,3,4,3,3,4,4
+2,Female,21 - 23,Smartphone,Entertainment / Streaming / Gaming,5.5,3.5,5.5,5.5,5,4,4,4,4,4,4,4,4,4,4,5,5,3,4,2,4,3,5,5
+3,Male,21 - 23,Smartphone,Social Media & Networking,4.5,1.5,2.5,4.5,3,2,3,4,2,2,3,3,4,2,3,3,2,2,2,2,2,2,3,3
+4,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,4.5,5.5,4.5,3,2,3,2,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+5,Female,21 - 23,Smartphone; Laptop / Desktop,Academic Learning / Research,3.5,1.5,2.5,1.5,4,1,3,3,3,5,4,3,3,3,4,2,4,2,3,4,4,3,2,3
+6,Female,21 - 23,Other combination,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,5.5,5.5,2,1,2,1,1,2,2,1,2,2,2,1,1,1,1,1,1,1,1,1
+7,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,1.5,3.5,2.5,5,5,4,4,5,5,3,3,5,3,5,4,4,4,5,5,5,5,4,5
+8,Female,24 or above,Smartphone,"Academic Learning / Research; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",3.5,2.5,3.5,2.5,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+9,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,1.5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+10,Female,24 or above,Smartphone,Academic Learning / Research,5.5,3.5,5.5,1.5,3,4,3,2,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+11,Female,18 - 20,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,3.5,4.5,1.5,3,2,2,2,5,5,4,5,2,2,2,1,3,1,2,3,3,3,2,4
+12,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",4.5,4.5,3.5,2.5,3,4,3,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3
+14,Female,21 - 23,Other combination,Social Media & Networking,4.5,1.5,3.5,1.5,5,3,4,4,3,3,3,3,3,3,3,3,5,2,2,3,2,3,5,5
+15,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,3.5,3.5,3.5,3,4,4,2,4,4,5,3,2,4,4,2,4,2,4,4,4,4,2,4
+16,Female,21 - 23,Smartphone,Academic Learning / Research; Social Media & Networking,3.5,3.5,3.5,4.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+17,Female,18 - 20,Smartphone,Academic Learning / Research,4.5,2.5,1.5,2.5,4,4,4,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4
+18,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,2.5,3.5,2.5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+19,Female,21 - 23,Smartphone,Entertainment / Streaming / Gaming,4.5,3.5,4.5,3.5,5,5,4,4,4,5,5,3,5,4,4,4,5,4,4,4,5,5,4,4
+20,Female,18 - 20,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,3.5,5.5,2.5,4,4,3,2,4,4,2,2,2,3,3,2,3,4,3,3,3,2,2,2
+21,Male,24 or above,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,5.5,3.5,5.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+22,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,4.5,5.5,5.5,4,4,5,3,4,5,4,3,2,3,4,2,2,3,4,3,3,4,3,3
+23,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,1.5,2.5,5,4,4,4,5,5,4,3,4,3,3,3,3,4,4,5,4,4,4,5
+24,Female,18 - 20,Smartphone,Academic Learning / Research,4.5,2.5,3.5,1.5,4,3,5,3,5,5,5,5,3,4,3,4,4,4,4,4,3,4,4,4
+26,Female,21 - 23,Smartphone,Social Media & Networking,5.5,2.5,5.5,4.5,4,4,3,2,3,5,5,5,5,5,5,3,4,1,4,2,3,2,2,2
+27,Female,24 or above,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,5.5,5,5,5,5,2,5,4,1,5,3,3,3,3,4,4,4,2,4,4,4
+28,Female,24 or above,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,5.5,5.5,2,2,2,1,1,1,1,1,1,2,2,1,2,1,2,1,2,1,2,1
+29,Female,24 or above,Smartphone; Laptop / Desktop,Academic Learning / Research; Social Media & Networking,5.5,2.5,3.5,5.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+30,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls); Other",5.5,2.5,5.5,3.5,5,5,3,4,4,5,2,2,4,4,4,2,2,1,2,2,3,3,4,5
+31,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,3.5,5,4,3,3,5,5,5,3,5,4,2,2,5,1,3,4,3,5,5,5
+32,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",5.5,4.5,1.5,3.5,5,2,1,1,5,5,4,2,5,2,1,4,5,1,4,5,4,4,4,5
+33,Female,24 or above,Smartphone,Academic Learning / Research,5.5,3.5,3.5,2.5,2,2,2,2,2,2,4,4,4,4,4,4,4,4,4,4,5,5,5,5
+34,Female,21 - 23,Smartphone,Social Media & Networking,5.5,1.5,2.5,2.5,4,4,4,5,4,4,2,4,4,4,4,4,5,5,5,5,4,4,4,4
+36,Male,18 - 20,Smartphone,Academic Learning / Research,1.5,1.5,1.5,1.5,2,2,1,1,1,1,1,2,1,2,1,2,2,2,1,2,1,1,1,1
+37,Female,Under 18,Smartphone,Academic Learning / Research,4.5,3.5,2.5,1.5,4,3,4,3,4,5,4,3,4,4,4,4,4,2,4,3,3,4,4,4
+38,Female,Under 18,Smartphone,Academic Learning / Research,3.5,2.5,1.5,1.5,3,2,3,1,4,5,4,4,3,3,2,3,2,2,3,4,3,4,4,5
+39,Female,Under 18,Other combination,Academic Learning / Research,3.5,2.5,1.5,1.5,2,1,2,1,4,5,4,4,1,1,1,1,5,1,1,5,5,5,3,4
+41,Female,Under 18,Smartphone,Academic Learning / Research,3.5,3.5,1.5,2.5,1,2,1,2,2,2,2,2,2,2,1,2,2,2,2,2,2,4,4,3
+42,Male,Under 18,Smartphone,Entertainment / Streaming / Gaming,3.5,2.5,2.5,1.5,3,2,4,4,4,5,3,3,4,3,3,4,3,3,4,3,3,4,4,5
+43,Female,Under 18,Smartphone,Academic Learning / Research,1.5,1.5,1.5,1.5,4,3,3,2,4,5,3,4,4,4,4,4,4,3,4,3,4,4,3,3
+44,Male,18 - 20,Smartphone,Academic Learning / Research,3.5,2.5,2.5,1.5,4,2,2,4,4,4,3,4,3,3,3,3,4,4,4,3,3,3,3,3
+45,Female,18 - 20,Smartphone,Academic Learning / Research,4.5,4.5,3.5,4.5,5,4,3,4,4,5,5,4,4,3,3,3,5,3,4,4,3,4,4,5
+46,Female,Under 18,Smartphone,Academic Learning / Research,3.5,2.5,2.5,3.5,5,3,4,5,4,5,4,3,5,4,3,4,4,5,3,4,5,4,4,4
+48,Male,Under 18,Smartphone,Social Media & Networking,3.5,1.5,3.5,1.5,3,4,1,3,3,5,3,2,4,3,3,4,3,2,3,4,3,4,4,3
+49,Female,Under 18,Smartphone,Entertainment / Streaming / Gaming,3.5,1.5,3.5,2.5,4,3,3,3,4,3,3,3,4,3,4,4,4,3,3,4,3,3,3,3
+50,Male,Under 18,Smartphone,Academic Learning / Research; Social Media & Networking,3.5,2.5,2.5,1.5,4,2,3,4,4,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+51,Male,Under 18,Smartphone,Academic Learning / Research,4.5,2.5,3.5,3.5,4,3,3,3,4,5,3,3,3,4,3,3,3,4,4,3,3,3,3,4
+52,Female,18 - 20,Smartphone,Academic Learning / Research,3.5,1.5,2.5,3.5,3,4,3,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4
+53,Male,Under 18,Smartphone,Academic Learning / Research,3.5,3.5,1.5,1.5,2,1,3,1,3,2,2,4,3,3,3,3,3,2,2,5,3,3,3,4
+54,Female,Under 18,Smartphone,Social Media & Networking,3.5,2.5,3.5,2.5,2,2,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1
+55,Female,18 - 20,Smartphone,Academic Learning / Research,3.5,3.5,1.5,1.5,3,3,3,2,5,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+56,Female,Under 18,Smartphone,Academic Learning / Research,3.5,2.5,2.5,1.5,4,3,3,2,4,4,4,3,3,3,3,3,4,3,3,3,3,3,4,4
+57,Male,Under 18,Smartphone,Entertainment / Streaming / Gaming,4.5,1.5,1.5,3.5,4,3,4,4,4,4,4,2,4,3,2,2,4,2,4,3,3,4,4,4
+58,Male,Under 18,Smartphone,Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming,5.5,1.5,2.5,2.5,2,2,1,1,1,1,2,2,1,1,1,2,1,2,1,2,2,1,1,1
+59,Other,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,3.5,5.5,3.5,4,4,5,4,4,5,5,4,4,4,5,4,2,1,4,3,3,4,4,5
+60,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Communication (Messaging, Email, Calls)",4.5,3.5,2.5,4.5,5,5,4,5,4,4,4,2,4,4,3,3,4,2,1,1,2,3,2,3
+61,Male,21 - 23,Other combination,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls); Other",3.5,3.5,3.5,2.5,1,1,1,1,1,1,2,1,1,1,1,2,1,2,1,2,1,1,1,1
+62,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,2.5,1.5,1.5,3,4,4,2,4,4,2,3,4,2,2,2,4,1,3,4,3,3,3,3
+63,Male,21 - 23,Smartphone; Laptop / Desktop,"Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,5.5,5,5,5,1,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+64,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,5.5,5,5,5,5,3,4,4,2,5,5,5,5,5,2,5,5,3,2,1,2
+65,Male,24 or above,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",4.5,2.5,2.5,1.5,3,2,2,2,3,4,4,3,3,3,3,3,2,1,3,2,3,3,4,5
+66,Female,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",3.5,3.5,3.5,2.5,3,4,3,4,3,4,3,4,5,5,5,2,4,4,5,5,4,5,4,5
+67,Male,21 - 23,Smartphone,Entertainment / Streaming / Gaming,4.5,2.5,4.5,4.5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4
+68,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,2.5,3.5,3.5,3,3,2,1,3,4,4,4,3,3,3,2,3,3,3,2,4,4,2,2
+69,Female,21 - 23,Smartphone,"Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,5.5,2,3,4,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+70,Female,18 - 20,Smartphone; Laptop / Desktop,Academic Learning / Research,3.5,3.5,2.5,2.5,3,3,3,2,3,3,3,3,3,3,3,3,4,3,3,4,3,3,3,4
+71,Female,18 - 20,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,3.5,2.5,4,4,3,3,4,4,4,3,4,3,3,3,5,3,4,2,4,3,3,5
+72,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,1.5,2.5,3.5,5,4,4,4,3,5,4,3,4,3,2,3,4,3,4,4,2,3,2,2
+73,Female,18 - 20,Smartphone,Social Media & Networking,5.5,1.5,4.5,1.5,4,4,3,3,4,5,3,3,5,5,3,3,5,2,4,4,4,4,2,3
+74,Female,18 - 20,Smartphone,Social Media & Networking,5.5,1.5,2.5,3.5,3,3,4,4,3,4,4,3,4,3,3,4,3,3,4,4,3,3,3,3
+75,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,4.5,4.5,5,4,4,4,4,4,5,4,4,4,3,4,4,2,4,4,3,4,4,5
+76,Male,21 - 23,Smartphone,Entertainment / Streaming / Gaming,3.5,4.5,2.5,2.5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+77,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,3.5,5.5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+78,Female,21 - 23,Smartphone,"Academic Learning / Research; Communication (Messaging, Email, Calls)",4.5,2.5,3.5,2.5,3,4,3,3,4,5,4,4,5,3,2,4,5,4,5,5,4,3,4,5
+79,Female,18 - 20,Smartphone,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",5.5,4.5,4.5,1.5,3,3,3,4,4,5,3,3,4,3,3,2,5,2,3,4,3,3,3,3
+80,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,4.5,3.5,1.5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+81,Male,21 - 23,Smartphone; Laptop / Desktop,Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming,5.5,4.5,4.5,4.5,4,4,4,5,4,4,3,3,4,4,3,4,4,5,4,4,4,5,4,4
+82,Female,18 - 20,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,3.5,2.5,5,5,4,4,3,5,5,4,5,4,4,4,5,4,4,5,4,3,4,4
+84,Female,21 - 23,Smartphone; Laptop / Desktop,"Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,5.5,5.5,4,5,4,4,4,4,3,2,5,4,4,3,3,2,4,2,3,4,4,3
+85,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,2.5,4.5,2.5,3,4,2,3,3,5,5,4,4,4,4,4,3,4,3,3,4,3,2,4
+86,Male,21 - 23,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,2.5,2.5,4,4,4,3,4,4,4,4,3,2,4,3,4,4,4,4,4,4,4,5
+87,Female,18 - 20,Other combination,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",3.5,1.5,2.5,1.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+88,Female,18 - 20,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls); Other",5.5,3.5,4.5,4.5,3,4,4,3,4,4,4,3,4,4,4,3,4,4,4,4,4,3,3,2
+89,Male,21 - 23,Smartphone,Academic Learning / Research,4.5,2.5,3.5,3.5,5,5,5,5,4,5,3,5,5,5,5,5,5,5,5,5,5,5,5,5
+90,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,4.5,5.5,4.5,4,5,5,4,4,5,4,5,4,4,5,4,5,5,4,5,4,4,4,5
+91,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",5.5,4.5,5.5,1.5,4,4,4,4,5,4,4,4,4,4,4,3,4,3,3,3,3,4,4,4
+92,Female,21 - 23,Smartphone; Laptop / Desktop,Academic Learning / Research,3.5,2.5,1.5,2.5,3,4,4,3,3,4,3,4,3,4,3,3,3,3,3,3,4,3,3,3
+93,Male,24 or above,Smartphone,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",3.5,2.5,3.5,3.5,4,4,2,4,3,3,2,3,2,2,3,2,3,2,3,2,3,2,2,3
+94,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Communication (Messaging, Email, Calls)",3.5,2.5,2.5,3.5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+95,Male,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,1.5,2.5,5.5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+96,Male,21 - 23,Smartphone,Social Media & Networking; Other,5.5,4.5,4.5,2.5,4,4,4,4,4,5,5,4,2,2,4,4,4,4,4,2,2,2,5,5
+97,Male,21 - 23,Smartphone,Academic Learning / Research,1.5,2.5,2.5,1.5,4,2,3,2,4,4,3,2,3,4,3,2,2,4,1,3,4,5,4,5
+98,Female,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",5.5,3.5,5.5,2.5,4,5,4,3,5,5,5,4,5,3,4,5,5,5,5,5,5,5,5,5
+99,Female,21 - 23,Smartphone; Laptop / Desktop,Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming,4.5,3.5,3.5,2.5,3,4,3,2,4,5,5,4,5,4,5,5,5,5,5,5,5,5,5,5
+100,Female,24 or above,Smartphone,Other,4.5,3.5,3.5,1.5,4,4,4,4,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+101,Female,21 - 23,Smartphone,"Communication (Messaging, Email, Calls)",3.5,1.5,3.5,2.5,3,2,2,2,3,4,4,2,2,2,1,2,4,1,2,3,4,2,2,2
+102,Male,24 or above,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls)",4.5,3.5,1.5,1.5,3,2,3,1,4,5,5,4,3,3,3,1,2,1,2,3,5,4,2,3
+103,Male,21 - 23,Smartphone,Academic Learning / Research,4.5,3.5,4.5,4.5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5
+104,Other,21 - 23,Smartphone; Laptop / Desktop,"Academic Learning / Research; Social Media & Networking; Entertainment / Streaming / Gaming; Communication (Messaging, Email, Calls); Other",4.5,1.5,5.5,1.5,4,5,5,1,4,5,3,1,5,3,5,5,5,3,3,5,5,5,1,5
