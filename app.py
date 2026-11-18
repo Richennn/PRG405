@@ -376,6 +376,7 @@ PURPOSE_COLOURS = {"Academic Learning": BLUE, "Social Media": GREEN, "Communicat
 GENDER_LABEL = {"Female": "Female", "Male": "Male", "Other": "Prefer not to say"}
 AGE_LABEL = {"Under 18": "Under 18", "18 - 20": "18–20", "21 - 23": "21–23", "24 or above": "24+"}
 BAND_LABEL = {0.5: "<1 hr", 1.5: "1–2 hrs", 2.5: "2–3 hrs", 3.5: "3–4 hrs", 4.5: "4–5 hrs", 5.5: "5+ hrs"}
+HIST_BANDS = [1.5, 2.5, 3.5, 4.5, 5.5]  # every answer from 1–2 hrs to 5+ hrs (no student chose <1 hr)
 BAND_SHADES = ["#2a63c9", "#3474e6", "#3b82f6", "#5f9bf8", "#8cb8fb", "#b4d1fd"]
 
 st.markdown(f"""
@@ -611,6 +612,15 @@ def donut(labels, values, colours, centre_value, centre_label, key):
     show(style(fig, height=230, legend=False), key)
 
 
+def pie(labels, values, colours, key):
+    fig = go.Figure(go.Pie(labels=labels, values=values, sort=False, direction="clockwise",
+                           marker=dict(colors=colours, line=dict(color=PANEL, width=2)),
+                           textinfo="percent", textposition="inside", insidetextorientation="horizontal",
+                           textfont=dict(color="#ffffff", size=13),
+                           hovertemplate="<b>%{label}</b><br>%{value} · %{percent}<extra></extra>"))
+    show(style(fig, height=260, legend=False), key)
+
+
 def legend_html(labels, values, colours):
     total = sum(values) or 1
     html("<div class='lg'>" + "".join(
@@ -775,8 +785,9 @@ def page_overview():
 
     c1, c2 = st.columns([1.3, 1])
     with c1, card("box"):
-        card_head("Daily hours · box plot", "Estimated spread of daily internet hours", "Usage", "ov1")
-        fig = go.Figure(go.Box(x=df["total_hours"], orientation="h", name="", boxpoints=False,
+        card_head("Box plot · daily internet hours", "Spread of daily hours · dots = outliers", "Usage", "ov1")
+        fig = go.Figure(go.Box(x=df["total_hours"], orientation="h", name="", boxpoints="outliers",
+                               marker=dict(color="#7fb0ff"),
                                fillcolor="rgba(59,130,246,0.30)", line=dict(color="#7fb0ff", width=2),
                                whiskerwidth=0.6, hoverinfo="x"))
         fig.update_xaxes(range=[1.3, 5.7], tickvals=[1.5, 2.5, 3.5, 4.5, 5.5], showgrid=False,
@@ -797,8 +808,8 @@ def page_overview():
         pur = purpose_numbers(df)
         bar_rows([(l, f"{v}", v / n, PURPOSE_COLOURS[l]) for l, v in pur.items()])
     with c4, card("dist"):
-        card_head("Daily usage distribution", "Reported hour bands, not exact hours", "Usage", "ov4")
-        bands = sorted(data["total_hours"].unique())
+        card_head("Histogram · daily internet hours", "Number of students in each hour band", "Usage", "ov4")
+        bands = HIST_BANDS
         counts = [int((df["total_hours"] == b).sum()) for b in bands]
         fig = go.Figure(go.Bar(x=[BAND_LABEL[b] for b in bands], y=counts, marker_cornerradius=4,
                                marker_color=[BAND_SHADES[min(int(b), 5)] for b in bands],
@@ -806,8 +817,9 @@ def page_overview():
                                textfont=dict(color=TEXT1, size=14),
                                hovertemplate="<b>%{x}</b> per day<br>%{y} students<extra></extra>"))
         fig.update_yaxes(visible=False, range=[0, max(counts + [1]) * 1.25])
-        fig.update_xaxes(showgrid=False, showline=False)
-        show(style(fig, height=270, legend=False), "ov_dist")
+        fig.update_xaxes(showgrid=False, showline=False, title="Hours per day")
+        fig.update_layout(bargap=0.04)
+        show(style(fig, height=290, legend=False), "ov_dist")
 
     with card("act"):
         card_head("Where the hours go", "Mean hours per day spent on each activity (asked separately, so they overlap)")
@@ -892,9 +904,9 @@ def page_usage():
 
     c1, c2 = st.columns(2)
     with c1, card("udist"):
-        card_head("Distribution by activity", "Share of students in each hour band")
+        card_head("Histogram · hours by activity", "Share of students in each hour band for the chosen activity")
         act = st.selectbox("Activity", HOURS_COLS, format_func=lambda c: HOURS_LABELS[c], key="u_act")
-        bands = sorted(data[act].unique())
+        bands = HIST_BANDS
         counts = np.array([int((df[act] == b).sum()) for b in bands])
         fig = go.Figure(go.Bar(x=[BAND_LABEL[b] for b in bands], y=counts / n * 100, marker_cornerradius=4,
                                marker_color=[BAND_SHADES[min(int(b), 5)] for b in bands],
@@ -902,15 +914,17 @@ def page_usage():
                                textfont=dict(color=TEXT1), customdata=counts,
                                hovertemplate="<b>%{x}</b><br>%{y:.1f}% of students (%{customdata})<extra></extra>"))
         fig.update_yaxes(title="% of students", range=[0, max(counts.max() / n * 100, 1) * 1.25])
+        fig.update_xaxes(title="Hours per day")
+        fig.update_layout(bargap=0.04)
         show(style(fig, height=300, legend=False), "u_dist")
     with c2, card("ugrp"):
-        card_head("Compare groups", "Mean hours per day for the chosen activity")
+        card_head("Bar chart · average daily use by group", "Mean hours per day for the chosen activity and group")
         grp_name = st.selectbox("Compare by", list(GROUP_OPTIONS), key="u_grp")
         gcol, gorder = GROUP_OPTIONS[grp_name]
         show(group_mean_bar(df, gcol, gorder, act), "u_grpbar")
 
     with card("ubox"):
-        card_head("Variability of daily internet use", "Box plots by group · dashed line = mean")
+        card_head("Box plot · variability and outliers", "One box per group · solid line = median · dashed line = mean · dots = outliers")
         t = st.columns([1.2, 1.2, 2.5], vertical_alignment="bottom")
         box_grp = t[0].selectbox("Box plot by", ["Age group", "Gender", "Device group"], key="u_boxgrp")
         drop_out = t[1].toggle("Remove IQR outliers", key="u_iqr",
@@ -955,8 +969,8 @@ def page_devices():
         bar_rows([(l, f"{v} ({v / n * 100:.1f}%)", v / n, DEVICE_COLOURS[l]) for l, v in dev.items()],
                  "Percentages can total more than 100% because multiple choices were allowed.")
         if clean_report.get("device_detail_lost"):
-            html(f"<div class='foot'>{clean_report['device_detail_lost']} students' device answers were saved as "
-                 "'Other combination' in the cleaned file; load the raw survey CSV (sidebar → Data source) to count them exactly.</div>")
+            html(f"<div class='foot'>Other = {clean_report['device_detail_lost']} students who used a different "
+                 "combination of devices.</div>")
 
     c3, c4 = st.columns(2)
     with c3, card("dgroup"):
@@ -982,8 +996,9 @@ def page_purposes():
     cols = [PURPOSE_COLOURS[i] for i in pur.index]
     c1, c2 = st.columns([1, 1.05])
     with c1, card("pshare"):
-        card_head("Share of purpose mentions", f"Pie chart of {int(pur.sum())} mentions, not a percentage of students")
-        donut(list(pur.index), list(pur.values), cols, int(pur.sum()), "MENTIONS", "p_donut")
+        card_head("Pie chart · main internet purposes",
+                  f"Proportion of all {int(pur.sum())} purpose answers (students could choose more than one)")
+        pie(list(pur.index), list(pur.values), cols, "p_pie")
         legend_html(list(pur.index), list(pur.values), cols)
     with c2, card("pbreak"):
         card_head("Purpose breakdown", f"How many of the {n} selected students mentioned each purpose")
